@@ -45,19 +45,19 @@
 
 ### 3. Actuator in the scene 🔬
 
- **Include the actuator dependency in pom.xml**
+ *Include the actuator dependency in pom.xml*
 
 [![dependency - JPA](https://img.shields.io/badge/Dependency-Actuator-turquoise )](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator/1.2.1.RELEASE)
 ````
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
 ````
-For more information, please visit the website below:
-- https://mvnrepository.com/
+For more information, please visit the Maven website:
+	- https://mvnrepository.com/
 
-- Now, go to localhost:8080/actuator**
+- Now, go to localhost:8080/actuator
 
 ![App Screenshot](images/actuator.png)
 
@@ -65,7 +65,7 @@ For more information, please visit the website below:
 
 ### 4. Connection with RDS Database 😄   
 
-*Include the JPA and MySQL lib in the pom xml, to connect the api to the AWS database and perform queries and data persistence via ORM*
+*Include the JPA and MySQL lib in the pom xml, to connect the api to the AWS database and perform queries and data persistence through ORM*
 
 
 [![dependency - JPA](https://img.shields.io/badge/Dependency-JPA-red)](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa)
@@ -88,7 +88,7 @@ For more information, please visit the website below:
 ````
 ![App Screenshot](images/connect-b.0249a5354c7767138c0efabeef2a2cec0104f084.png)<center><font size="1">https://aws.amazon.com/pt/getting-started/hands-on/create-mysql-db/</font></center>
 
-- Set your credentials in the application.properties file
+- Set AWS RDS credentials in the application.properties file
 
 ![App Screenshot](images/DATABASEAPPLICATION.png)
 
